@@ -9,7 +9,7 @@
 - Tive que adicionar o template dias.html com base no template base (layout.html)
 - Adicionei o respetivo caminho no urls.py para aceder à página dos dias
 
-# 3 Detalhe 
+# Detalhe 
 - Para obter o detalhe do concerto,utilizei um link na página palcos.html
 bash
   href="{% url 'concerto' concerto.id %}">...
